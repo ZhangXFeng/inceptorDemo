@@ -209,8 +209,8 @@ public class HiveJdbcDemo {
 
 	public static void main(String[] args) throws SQLException {
 		HiveJdbcDemo hjd = new HiveJdbcDemo("tdh2");
-		// hjd.createTable();
-		hjd.batchInsert();
+		hjd.createTable();
+		// hjd.batchInsert();
 		// hjd.update();
 		// hjd.delete();
 		// hjd.scan(2, 3);
